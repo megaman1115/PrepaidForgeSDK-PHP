@@ -83,7 +83,7 @@ try {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost:8080/api-1.0-SNAPSHOT/v1*
+All URIs are relative to *http://localhost:8080/api-1.0-SNAPSHOT/v1*  
 
 Class | Method | HTTP request | 
 ------------ | ------------- | ------------- | ------------- |
