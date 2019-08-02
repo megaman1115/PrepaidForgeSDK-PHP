@@ -86,7 +86,7 @@ try {
 All URIs are relative to *http://localhost:8080/api-1.0-SNAPSHOT/v1*  
 
 Class | Method | HTTP request | 
------------- | ------------- | ------------- | ------------- |
+------------ | ------------- | ------------- | 
 *OrdersCodesApi* | [**createSingleOrder**](docs/Api/OrdersCodesApi.md#createsingleorder) | **POST** /1.0/createOrder | 
 *OrdersCodesApi* | [**getResponseOfSingleCodeRequest**](docs/Api/OrdersCodesApi.md#getresponseofsinglecoderequest) | **POST** /1.0/getResponseOfSingleCodeRequest | 
 *ProductsStocksApi* | [**findAllProducts**](docs/Api/ProductsStocksApi.md#findallproducts) | **GET** /1.0/findAllProducts | 
