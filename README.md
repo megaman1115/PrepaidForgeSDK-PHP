@@ -21,7 +21,7 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
     }
   ],
   "require": {
-    "megaman1115/PrepaidForge-sdk-PHP": "*@dev"
+    "megaman1115/prepaid-forge-sdk-php": "*@dev"
   }
 }
 ```
