@@ -17,7 +17,7 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/megaman1115/PrepaidForge-sdk-PHP.git"
+      "url": "https://github.com/megaman1115/PrepaidForgeSDK-PHP.git"
     }
   ],
   "require": {
