@@ -94,11 +94,13 @@ Class | Method | HTTP request | Description
 *UserApi* | [**signInWithApi**](docs/Api/UserApi.md#signinwithapi) | **POST** /1.0/signInWithApi | 
 
 ## Code purchase flow
-| | | |
- --| --| --
- 1. | Retrieve API-key | [**signInWithApi**](docs/Api/UserApi.md#signinwithapi) 
-2. | Retrieve stocks for item that you wish to purchase | [**findAllStocks**](docs/Api/ProductsStocksApi.md#findallstocks) 
-3. | Create an order for retrieved stock |[**createSingleOrder**](docs/Api/OrdersCodesApi.md#createsingleorder) 
+
+step | step | link 
+------------ | ------------- | ------------- 
+1 | Retrieve API-key | [**signInWithApi**](docs/Api/UserApi.md#signinwithapi) |
+2 | Retrieve stocks for item that you wish to purchase | [**findAllStocks**](docs/Api/ProductsStocksApi.md#findallstocks) |
+3 | Create an order for retrieved stock | [**createSingleOrder**](docs/Api/OrdersCodesApi.md#createsingleorder) |
+
 
 [**Detailed example**](docs/integration.md)
 
