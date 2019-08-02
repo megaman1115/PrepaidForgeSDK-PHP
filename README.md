@@ -47,6 +47,8 @@ composer install
 
 ## Getting Started
 
+
+
 Please follow the [installation procedure](#installation--usage) and then run the following:
 
 ```php
@@ -77,8 +79,18 @@ try {
 }
 
 ?>
-```
+```  
 
+## Code purchase flow
+
+step | step | link 
+------------ | ------------- | ------------- 
+1 | Retrieve API-key | [**signInWithApi**](docs/Api/UserApi.md#signinwithapi) |
+2 | Retrieve stocks for item that you wish to purchase | [**findAllStocks**](docs/Api/ProductsStocksApi.md#findallstocks) |
+3 | Create an order for retrieved stock | [**createSingleOrder**](docs/Api/OrdersCodesApi.md#createsingleorder) |
+
+
+[**Detailed example**](docs/integration.md)
 
 
 ## Documentation for API Endpoints
@@ -93,16 +105,7 @@ Class | Method | HTTP request |
 *ProductsStocksApi* | [**findAllStocks**](docs/Api/ProductsStocksApi.md#findallstocks) | **POST** /1.0/findStocks | 
 *UserApi* | [**signInWithApi**](docs/Api/UserApi.md#signinwithapi) | **POST** /1.0/signInWithApi | 
 
-## Code purchase flow
 
-step | step | link 
------------- | ------------- | ------------- 
-1 | Retrieve API-key | [**signInWithApi**](docs/Api/UserApi.md#signinwithapi) |
-2 | Retrieve stocks for item that you wish to purchase | [**findAllStocks**](docs/Api/ProductsStocksApi.md#findallstocks) |
-3 | Create an order for retrieved stock | [**createSingleOrder**](docs/Api/OrdersCodesApi.md#createsingleorder) |
-
-
-[**Detailed example**](docs/integration.md)
 
 
 
