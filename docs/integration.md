@@ -21,13 +21,13 @@ Please consult the [PrepaidForge integration guide](https://www.notion.so/korsit
 ```
 ```php
     // Retrieve all available products from the Prepaidforge API
-    $allProducts = $this->client->findAllProducts();
+    $allProducts = $productsStocksclient->findAllProducts();
 ```
 ## Step 3 - Choose your stock
 ```php
     // Retrieve stocks (actual purchasable items) for required format using SKU retrieved in the $allProducts call
     $stock_request = new \OpenAPI\Client\Model\StockRequest(["types"=>['TEXT'], "skus"=>["iTunes-10-USD"]]);
-    $all_stocks_itunes = $this->client->findAllStocks($stock_request);
+    $all_stocks_itunes = $productsStocksclient->findAllStocks($stock_request);
 ```
 ## Step 4 - Order your code
 ```php
@@ -48,10 +48,10 @@ Please consult the [PrepaidForge integration guide](https://www.notion.so/korsit
         'custom_order_reference' => "phpCustomOrderReference" ,
     ]);
 
-    $code = $this->client->getResponseOfSingleCodeRequest($skuRequest);
+    $code = $orders_codes_client->getResponseOfSingleCodeRequest($skuRequest);
        
 ```
 
-[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints)
-[[Back to Model list]](../../README.md#documentation-for-models)
-[[Back to README]](../../README.md)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md)
