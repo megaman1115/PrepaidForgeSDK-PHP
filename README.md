@@ -54,6 +54,7 @@ Please follow the [installation procedure](#installation--usage) and then run th
 [**Step-by-step example**](docs/integration.md)
 
 Or   
+ 
 [**Real-world example**](docs/multiplecodesexample.md)
 
 ## Code purchase flow
